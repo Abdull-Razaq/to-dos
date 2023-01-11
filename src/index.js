@@ -4,8 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// Capturing main entry to my application
+// Inside the div element
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  // StrictMode to catch errors
   <React.StrictMode>
     <App />
   </React.StrictMode>
